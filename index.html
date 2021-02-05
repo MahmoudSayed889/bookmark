@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="header container">
+        <h1 class="brand font-weight-bold py-5">Bookmarker</h1>
+    </div>
+    <div class="line m-auto"></div>
+    <div class="body-sec container text-center my-3 py-5">
+        <h2 class="mb-4">Bookmark your favorite sites</h2>
+
+        <div class="form-group">
+            <label for="siteNameInput">Site Name</label>
+            <input class=" form-control" type="text" placeholder="Bookmark Name" id="siteNameInput">
+        </div>
+
+        <div class="form-group">
+            <label for="siteUrlInput">Site URL</label>
+            <input class=" form-control" type="text" placeholder="website URL" id="siteUrlInput">
+        </div>
+
+        <div class=" m-auto">
+            <p id="required" class=" text-danger d-none justify-content-center font-weight-bolder">All input is required</p>
+        </div>
+
+        <button onclick="addBookmark()" class="btn btn-primary">Submit</button>
+        
+    </div>
+
+    <div id="bookmarkBody">
+        
+    </div>
+
+    <div class="line m-auto"></div>
+
+    <div class="container">
+        <p class="brand font-weight-bold mt-4">© 2021 Bookmarker Inc.</p>
+    </div>
+
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
